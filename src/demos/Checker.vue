@@ -260,7 +260,7 @@ export default {
   padding: 5px 15px;
 }
 .demo1-item-selected {
-  border: 1px solid green;
+  border: 1px solid #FF9900;
 }
 .demo2-item {
   width: 40px;
@@ -272,14 +272,14 @@ export default {
   text-align: center;
 }
 .demo2-item-selected {
-  border-color: green;
+  border-color: #FF9900;
 }
 .demo3-item {
   padding: 5px 5px;
   font-size: 0;
 }
 .demo3-item-selected {
-  outline: 1px solid #8B8AEE;
+  outline: 1px solid #FF9900;
 }
 .demo4-item {
   background-color: #ddd;
@@ -291,7 +291,7 @@ export default {
   border-radius: 15px;
 }
 .demo4-item-selected {
-  background-color: #FF3B3B;
+  background-color: #FF9900;
   color: #fff;
 }
 .demo4-item-disabled {

@@ -1,6 +1,6 @@
 {
-  "name": "vux",
-  "version": "2.2.1-rc.4",
+  "name": "hxvux",
+  "version": "1.0.4",
   "main": "index.js",
   "description": "Mobile web UI based on Vue and WeUI",
   "keywords": [
@@ -16,10 +16,10 @@
     "framework",
     "frontend"
   ],
-  "author": "airyland <airyland@qq.com>",
+  "author": "Lemon",
   "repository": {
     "type": "git",
-    "url": "https://github.com/airyland/vux"
+    "url": "git+https://github.com/Lemon23/hxtvux.git"
   },
   "license": "MIT",
   "scripts": {
@@ -149,5 +149,13 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/airyland/vux/issues"
+  },
+  "homepage": "https://github.com/airyland/vux#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
