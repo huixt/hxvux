@@ -20,7 +20,7 @@ let store = new Vuex.Store({
   }
 })
 
-store.registerModule('vux', {
+store.registerModule('hxvux', {
   state: {
     demoScrollTop: 0,
     isLoading: false,
