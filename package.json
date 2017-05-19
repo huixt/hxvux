@@ -1,6 +1,6 @@
 {
   "name": "hxvux",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "description": "Mobile web UI based on Vue and WeUI",
   "keywords": [
@@ -19,7 +19,7 @@
   "author": "Lemon",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lemon23/hxtvux.git"
+    "url": "git+https://github.com/huixt/hxvux"
   },
   "license": "MIT",
   "scripts": {
