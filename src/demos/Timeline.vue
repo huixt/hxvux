@@ -53,7 +53,7 @@ export default {
 		font-weight: normal;
 	}
 	.recent {
-		color: rgb(4, 190, 2)
+		color: #FF9900
 	}
 }
 </style>
