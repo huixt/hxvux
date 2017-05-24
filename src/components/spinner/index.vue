@@ -32,8 +32,8 @@ export default {
 
 <style>
 .vux-spinner {
-  stroke: #444;
-  fill: #444;
+  stroke: #FF9900;
+  fill: #FF9900;
   vertical-align: middle;
   display: inline-block;
   width: 28px;
@@ -51,11 +51,11 @@ export default {
 }
 
 .vux-spinner-android {
-  stroke: #4b8bf4;
+  stroke: #FF9900;
 }
 
 .vux-spinner-ios, .vux-spinner-ios-small {
-  stroke: #69717d;
+  stroke: #FF9900;
 }
 
 .vux-spinner-spiral .stop1 {
