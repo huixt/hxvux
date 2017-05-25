@@ -12,10 +12,10 @@
         </div>
         <label :for="`search_input_${uuid}`" class="weui-search-bar__label" v-show="!isFocus && !value">
           <i class="weui-icon-search"></i>
-          <span>{{placeholder || $t('placeholder')}}</span>
+          <span>{{placeholders}}</span>
         </label>
       </form>
-      <a href="javascript:" class="weui-search-bar__cancel-btn" @click="cancel">{{cancelText || $t('cancel_text')}}</a>
+      <a href="javascript:" class="weui-search-bar__cancel-btn" @click="cancel">{{cancel_text}}</a>
       <slot name="right"></slot>
     </div>
     <div class="weui-cells vux-search_show" v-show="isFixed">
@@ -30,10 +30,10 @@
 </template>
 
 <i18n>
-cancel_text:
+  cancel_text:
   en: cancel
   zh-CN: 取消
-placeholder:
+  placeholder:
   en: Search
   zh-CN: 搜索
 </i18n>
@@ -132,7 +132,9 @@ export default {
       currentValue: '',
       isCancel: true,
       isFocus: false,
-      isFixed: false
+      isFixed: false,
+      placeholders: '搜索',
+      cancel_text: '取消'
     }
   },
   watch: {
