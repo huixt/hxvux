@@ -61,7 +61,7 @@ export default {
 
 <style>
 .vux-x-icon {
-  fill: #F70968;
+  fill: #ff7700;
 }
 .cell-x-icon {
   display: block;
