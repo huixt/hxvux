@@ -65,6 +65,6 @@ export default {
 }
 .cell-x-icon {
   display: block;
-  fill: green;
+  fill: #ff7700;
 }
 </style>

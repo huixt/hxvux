@@ -48,7 +48,7 @@ export default {
       }, this.leftOptions || {})
     }
   },
-  data() {
+  data () {
     return {
       back_text: '返回'
     }

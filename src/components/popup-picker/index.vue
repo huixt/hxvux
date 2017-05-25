@@ -22,8 +22,8 @@
         <div class="vux-popup-picker-container">
           <div class="vux-popup-picker-header">
             <flexbox>
-              <flexbox-item class="vux-popup-picker-header-menu vux-popup-picker-cancel" @click.native="onHide(false)">{{cancelText || $t('cancel_text')}}</flexbox-item>
-              <flexbox-item class="vux-popup-picker-header-menu vux-popup-picker-header-menu-right" @click.native="onHide(true)">{{confirmText || $t('confirm_text')}}</flexbox-item>
+              <flexbox-item class="vux-popup-picker-header-menu vux-popup-picker-cancel" @click.native="onHide(false)">{{cancel_text}}</flexbox-item>
+              <flexbox-item class="vux-popup-picker-header-menu vux-popup-picker-header-menu-right" @click.native="onHide(true)">{{confirm_text}}</flexbox-item>
             </flexbox>
           </div>
           <picker
@@ -40,15 +40,6 @@
 
   </div>
 </template>
-
-<i18n>
-cancel_text:
-  en: cancel
-  zh-CN: 取消
-confirm_text:
-  en: ok
-  zh-CN: 完成
-</i18n>
 
 <script>
 import Picker from '../picker'
@@ -199,7 +190,10 @@ export default {
       closeType: false,
       currentData: JSON.stringify(this.data), // used for detecting if it is after data change
       showValue: false,
-      currentValue: this.value
+      currentValue: this.value,
+      cancel_text: '取消',
+      confirm_text: '完成'
+
     }
   }
 }

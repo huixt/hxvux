@@ -22,7 +22,7 @@ export default {
     },
     strokeColor: {
       type: String,
-      default: '#3FC7FA'
+      default: '#ff6600'
     },
     trailWidth: {
       type: Number,

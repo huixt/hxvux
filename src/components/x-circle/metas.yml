@@ -14,7 +14,7 @@ props:
     zh-CN: 线条宽度
   stoke-color:
     type: String
-    default: '#3FC7FA'
+    default: '#ff6600'
     en: top line's color
     zh-CN: 线条颜色
   trail-width:
