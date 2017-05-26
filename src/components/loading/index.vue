@@ -4,7 +4,7 @@
       <div class="weui-mask_transparent"></div>
       <div class="weui-toast" :style="{ position: position }">
         <i class="weui-loading weui-icon_toast"></i>
-        <p class="weui-toast__content">{{ $t(text) || $t('loading') }}<slot></slot></p>
+        <p class="weui-toast__content">{{loading}}<slot></slot></p>
       </div>
     </div>
   </transition>
@@ -31,7 +31,8 @@ export default {
   },
   data () {
     return {
-      show: false
+      show: false,
+      loading: '加载中'
     }
   },
   watch: {

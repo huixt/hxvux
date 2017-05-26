@@ -10,8 +10,8 @@
       <div class="weui-dialog__hd"><strong class="weui-dialog__title">{{title}}</strong></div>
       <div class="weui-dialog__bd"><slot><div v-html="content"></div></slot></div>
       <div class="weui-dialog__ft">
-        <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" @click="_onCancel">{{cancelText || $t('cancel_text')}}</a>
-        <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" @click="_onConfirm">{{confirmText || $t('confirm_text')}}</a>
+        <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" @click="_onCancel">{{cancel_text}}</a>
+        <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" @click="_onConfirm">{{confirm_text}}</a>
       </div>
     </x-dialog>
   </div>
@@ -70,7 +70,9 @@ export default {
   },
   data () {
     return {
-      showValue: false
+      showValue: false,
+      confirm_text: '确定',
+      cancel_text: '取消'
     }
   },
   methods: {
